@@ -1,0 +1,45 @@
+{
+	"name": "ds_static_payments",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dls",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "study"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "tb_payments.csv",
+				"folderPath": "payments",
+				"fileSystem": "transient"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "consumer_id",
+				"type": "String"
+			},
+			{
+				"name": "payment_type",
+				"type": "String"
+			},
+			{
+				"name": "payment_date",
+				"type": "String"
+			},
+			{
+				"name": "payment_amount",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

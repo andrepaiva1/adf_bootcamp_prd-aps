@@ -1,0 +1,19 @@
+{
+	"name": "ds_webtable_salariominimo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_webtable_bootcamp",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Storage Account/Fontes Externas"
+		},
+		"annotations": [],
+		"type": "WebTable",
+		"schema": [],
+		"typeProperties": {
+			"index": 0
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
