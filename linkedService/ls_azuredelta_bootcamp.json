@@ -1,6 +1,16 @@
 {
 	"name": "ls_azuredelta_bootcamp",
 	"properties": {
+		"parameters": {
+			"p_esquema": {
+				"type": "string",
+				"defaultValue": "gerencia"
+			},
+			"p_tabela": {
+				"type": "string",
+				"defaultValue": "pipeline_orquestador"
+			}
+		},
 		"annotations": [],
 		"type": "AzureDatabricksDeltaLake",
 		"typeProperties": {
