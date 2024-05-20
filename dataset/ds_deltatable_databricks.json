@@ -2,8 +2,12 @@
 	"name": "ds_deltatable_databricks",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDatabricksDeltaLake1",
-			"type": "LinkedServiceReference"
+			"referenceName": "ls_azuredelta_bootcamp",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"p_esquema": "gerencia",
+				"p_tabela": "pipeline_orquestador"
+			}
 		},
 		"folder": {
 			"name": "Databricks"
