@@ -1,6 +1,14 @@
 {
 	"name": "AzureDatabricksDeltaLake1",
 	"properties": {
+		"parameters": {
+			"p_esquema": {
+				"type": "string"
+			},
+			"p_tabela": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureDatabricksDeltaLake",
 		"typeProperties": {
