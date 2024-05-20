@@ -138,6 +138,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
+				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": {
 						"value": "@concat(\n    '/Repos/laurachaconmilani@hotmail.com/adb-bootcamp-prd-apd/notebooks/delta/bronze/',\n    variables('v_diretorio_destino'), '/generico_json'\n)",
