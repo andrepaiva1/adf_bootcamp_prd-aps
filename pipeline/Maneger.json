@@ -182,13 +182,6 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"source": {
-						"type": "WebSource"
-					},
-					"dataset": {
-						"referenceName": "ds_webtable_salariominimo",
-						"type": "DatasetReference"
-					},
 					"firstRowOnly": false
 				}
 			},
